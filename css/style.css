@@ -1,9 +1,143 @@
-body {  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-    background-color: black; 
-    color: white;  
-    font-family: Arial, sans-serif; 
-    padding: 20px;
- 
+body {
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+p{
+	font-size: 20px;
+}
+h1 {
+	color: brown;
+	text-align: center-left;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.logo{
+	height: 100px;
+	width: 300px;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	border-bottom: 1px;
+	border-width: 1px;
+	background-color: gray;
+	border-bottom: 2px;
+	border-color: azure;
+}
+form {
+
+    width: 300px;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    background-color: #f9f9f9;
+
 }
 
+label {
+
+    font-weight: bold;
+
+    display: block;
+
+    margin: 10px 0 5px;
+
+}
+
+input {
+
+    width: 100%;
+
+    padding: 8px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    box-sizing: border-box;
+
+}
+
+input::placeholder {
+
+    color: gray;
+
+    font-style: italic;
+
+} 
+nav a {
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: burlywood;
+	transition: color 1s;
+}
+
+nav div{
+	display: flex;
+	align-items: center;
+}
+.footer-cols{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: blanchedalmond;
+	padding-left: 3rem;
+
+
+}
+.footer-cols li{
+	list-style: none;
+}
+
+.footer-cols ul {
+	padding: 0;
+}
+
+.footer-cols a {
+	text-decoration: none;
+	color: dimgrey;
+}
+
+footer .col {
+	padding-right: 2rem;
+}
+
+.formWrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+form button {
+	min-width: 300px;
+
+}
+.formTop{
+	position: relative;
+	left: 40vw;
+}
+.content {
+	position: relative;
+	max-width: 75%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+}
+
+.imagesContainer {
+	max-width: 25%;
+}
+
+.mainWrapper {
+	display: flex;
+}
